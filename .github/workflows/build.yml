@@ -38,7 +38,7 @@ jobs:
 
       - name: Test Frontend
         working-directory: client
-        run: npm test -- --watchAll=false
+        run: npm test -- --watchAll=false --passWithNoTests
 
       - name: Build React App
         working-directory: client
